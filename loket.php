@@ -2,12 +2,14 @@
 
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <title>Loket Pemanggil</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
+
 <body>
     <h1>Loket Pemanggil Antrian</h1>
     <form id="loketForm">
@@ -28,18 +30,20 @@
             }
             ?>
         </select>
-        
+
         <label for="antrian">Pilih Antrian:</label>
         <select id="antrian" name="antrian">
             <option value="A">Antrian A</option>
             <option value="B">Antrian B</option>
             <option value="C">Antrian C</option>
         </select>
-        
+
         <button type="button" onclick="panggilAntrian()">Panggil Antrian</button>
+        <button type="button" onclick="panggilUlang()">Panggil Ulang</button>
     </form>
     <p id="antrianDipanggil">Antrian yang dipanggil: <span id="queueNumber"></span></p>
 
     <script src="js/main.js"></script>
 </body>
+
 </html>

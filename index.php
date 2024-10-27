@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <title>Dashboard Antrian</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <h1>Dashboard Aplikasi Antrian</h1>
     <div class="dashboard-menu">
-        <a href="index.php" class="menu-item">
+        <a href="tiket.php" class="menu-item">
             <h2>Ambil Antrian</h2>
             <p>Ambil nomor antrian dengan kode A, B, atau C.</p>
         </a>
@@ -21,10 +23,11 @@
             <p>Tampilkan nomor antrian yang sedang dipanggil.</p>
         </a>
         <a href="data_antrian.php" class="menu-item">
-    <h2>Data Antrian</h2>
-    <p>Lihat data antrian dan lama waktu dipanggil.</p>
-</a>
+            <h2>Data Antrian</h2>
+            <p>Lihat data antrian dan lama waktu dipanggil.</p>
+        </a>
 
     </div>
 </body>
+
 </html>
