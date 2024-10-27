@@ -1,0 +1,78 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.display-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    /* Memusatkan elemen secara horizontal */
+    align-items: center;
+    /* Memusatkan elemen secara vertikal */
+    height: 100vh;
+    /* Memastikan kontainer mengambil tinggi penuh viewport, jika perlu */
+}
+
+.queue-box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.queue-box h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #e0e0e0;
+}
+
+.queue-box p {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#loketForm label,
+#loketForm select,
+#loketForm button {
+    display: block;
+    margin: 10px 0;
+}
