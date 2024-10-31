@@ -86,7 +86,7 @@
 
         // Fungsi untuk memanggil nomor antrian dengan suara
         function speakQueue(queueCode, queue) {
-            const message = `Antrian ${queueCode} nomor ${queue.queue_number}, silakan menuju ${queue.name}`;
+            const message = `Antrian Farmasi ${queueCode} nomor ${queue.queue_number}, silakan menuju ${queue.name}`;
             responsiveVoice.speak(message, "Indonesian Female");
 
             setDisplay(queueCode, queue.queue_number);
